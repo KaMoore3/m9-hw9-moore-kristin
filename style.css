@@ -150,3 +150,8 @@ footer {
   }
   
 }
+@media screen and (max-width: 400px) {
+  main > section.hero {
+    background-image: none;
+  }
+}
