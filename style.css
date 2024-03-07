@@ -131,27 +131,25 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
-@media screen and (max-width: 600px) {
-  body > header > nav {
-    display: flex;
-    flex-wrap: wrap;
-    float: none;
-    width: 100%;
+@media screen and (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
   }
-  
+    
   main > article img {
     float: none;
     display: block;
     margin: 0 auto;
-    padding: 2px;
+    padding: 3px;
   }
   main > article {
-    padding: 0%;
+    padding: 3px;
+    font-size: medium;
   }
-  
-}
-@media screen and (max-width: 400px) {
+
   main > section.hero {
     background-image: none;
   }
+  
 }
