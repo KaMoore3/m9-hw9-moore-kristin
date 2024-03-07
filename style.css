@@ -131,3 +131,22 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+@media screen and (max-width: 600px) {
+  body > header > nav {
+    display: flex;
+    flex-wrap: wrap;
+    float: none;
+    width: 100%;
+  }
+  
+  main > article img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+  }
+  main > article {
+    padding: 0%;
+  }
+  
+}
