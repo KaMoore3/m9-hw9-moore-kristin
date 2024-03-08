@@ -151,5 +151,6 @@ footer {
   main > section.hero {
     background-image: none;
   }
-  
-}
+  nav > a.logo {
+    margin-right: 0;
+  }
